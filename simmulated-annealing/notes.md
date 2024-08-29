@@ -23,7 +23,7 @@ At hotter temperatures, similar to metal molecules, the solution of the SA probl
 
 In path planning, Simmulated Annealing is used for the purpose of solving the TSP, or the allocation of jobs over multiple entities. TSP is solved by taking a single path as a solution and having the algorithm switch cities to generate alternates. In the case of multiple entities, each entity is assumed to have a set of jobs to complete. If a given entity has a job in it's vicinity, which it is closer to than the jobs original owner, the job may be allowed to change hands after giving it a penalty. The overall sum of ependiture, including the penalties is used as the objective function in this case.
 
-![](/home/vedant/Documents/Projects/Metaheuristic-Optimization-Algorithms/resources/Simulated-Annealing-in-Path-Planning.png)
+![Simulated Annealing on Simple UAVs](https://github.com/P3rdix/Metaheuristic-Optimization-Algorithms/blob/main/resources/Simulated-Annealing-in-Path-Planning.png)
 
 For two entities with paths P1 and P2, and m1 and m2 being the number of mismatches in both vehicles paths, the objective function of the system is given by:
 $$
