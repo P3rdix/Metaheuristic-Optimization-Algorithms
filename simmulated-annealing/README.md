@@ -26,6 +26,7 @@ In path planning, Simmulated Annealing is used for the purpose of solving the TS
 ![Simulated Annealing on Simple UAVs](https://github.com/P3rdix/Metaheuristic-Optimization-Algorithms/blob/main/resources/Simulated-Annealing-in-Path-Planning.png)
 
 For two entities with paths P1 and P2, and m1 and m2 being the number of mismatches in both vehicles paths, the objective function of the system is given by:
+
 $$E=\sum_{i=1}^{n}(m_i\lambda + 1)*\sum_{j=1}^{len(P_i)-1}dist(x_i,x_{i+1})$$
 
 
@@ -34,7 +35,7 @@ $$E=\sum_{i=1}^{n}(m_i\lambda + 1)*\sum_{j=1}^{len(P_i)-1}dist(x_i,x_{i+1})$$
 * [A Modified Simulated Annealing Algorithm for SUAVs Path Planning](https://www.sciencedirect.com/science/article/pii/S2405896315009763?ref=pdf_download&fr=RR-2&rr=8ba9a3302a479374)
 * [Baeldung.com](https://www.baeldung.com/cs/simulated-annealing)
 * [machinelearningplus](https://www.machinelearningplus.com/machine-learning/simulated-annealing-algorithm-explained-from-scratch-python/)
-* 
+* [Simulated annealing: From basics to applications](https://enac.hal.science/hal-01887543/document)
 
 
 
